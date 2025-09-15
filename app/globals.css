@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #fffdfe;
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .input {
+    @apply rounded-xl resize-none p-3 lg:p-4 placeholder:opacity-40 text-primary w-full focus:outline-none shadow-[0px_0px_10px_0px_rgba(0,0,0,0.10)] focus:ring ring-[#961F5F];
+  }
+}
+
+@layer utilities {
+  .content-wrapper {
+    @apply max-w-screen-2xl mx-auto px-4 sm:px-6 md:px-8 lg:px-10 2xl:px-11;
+  }
+}

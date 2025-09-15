@@ -1,0 +1,68 @@
+Style links .blogContent a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.blogContent a:hover {
+  text-decoration: underline;
+}
+
+.blogContent h1,
+.blogContent h2,
+.blogContent h3,
+.blogContent h4,
+.blogContent h5,
+.blogContent h6 {
+  color: #022144;
+  margin: 20px 0 10px;
+  font-weight: bold;
+}
+
+.blogContent p {
+  margin: 10px 0;
+}
+
+.blogContent img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.blogContent ul,
+.blogContent ol {
+  margin: 10px 0;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.blogContent ol {
+  list-style: decimal;
+}
+.blogContent ul {
+  list-style: circle;
+}
+.blogContent li {
+  margin-bottom: 10px;
+}
+
+.blogContent blockquote {
+  margin: 20px 0;
+  padding-left: 20px;
+  border-left: 4px solid #ccc;
+  color: #555;
+  font-style: italic;
+}
+
+.blogContent pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+.blogContent code {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #f4f4f4;
+  padding: 2px 4px;
+  border-radius: 4px;
+}

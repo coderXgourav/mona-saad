@@ -1,0 +1,668 @@
+{
+  "navbar": {
+    "home": "home",
+    "services": "services",
+    "about_us": "about us",
+    "blogs": "blogs",
+    "contact_us": "contact us",
+    "book_now": "Book Now",
+    "gallery": "Gallery",
+    "news": "News",
+    "female_cosmetic": "Female cosmetics",
+    "rare_conditions": "Rare conditions"
+  },
+  "home": {
+    "hero": {
+      "helper_text": "This text is an example of text that can be.",
+      "dr_mona": "Dr/ Mona Saad",
+      "second_helper_text": "Consultant & Head of the Obstetrics and Gynecology Department, and Laparoscopic Surgery at Med Care Hospital.",
+      "book_an_appointment": "Book an Appointment",
+      "our_schedule": "Our schedule",
+      "who_we_are": "Who We Are",
+      "your_journey": "Embrace challenges with confidence; you are far stronger than you realize.",
+      "at_kliniku": "We offer a variety of beauty treatments and services to help you look and feel your best.",
+      "happy_patients": "Happy Patients",
+      "patients_count": "+25,000",
+      "clinics": "Clinics",
+      "clinics_count": "2",
+      "certificates": "16 Certificates",
+      "in_surgeries": "in Surgeries",
+      "years": "20 Years",
+      "of_experience": "of experience"
+    },
+    "offers": {
+      "our_services": "Our Services",
+      "what_we_offer": "What we offer?",
+      "surgeries": "Surgeries",
+      "surgeries_description": "Expertise in High-Risk and Complex Surgeries",
+      "care": "Care",
+      "care_description": "Comprehensive Personalized Care for you",
+      "professional": "Professional",
+      "professional_description": "Professional Excellence and Medical Innovation"
+    },
+    "about": {
+      "about_dr_mona": "About Dr Mona",
+      "title": "Best Obstetrician and Gynecologist in Sharjah & Dubai.",
+      "description": "Dr. Mona Saad, the best obstetrician and gynecologist in Sharjah & Dubai, aims to be a leader in the field of obstetrics and gynecology by providing cutting-edge medical and surgical solutions, with a particular emphasis on complex surgeries that enhance women's health and well-being. Her goal is to empower women to make informed decisions about their reproductive health while delivering comprehensive medical care that combines expertise with empathy. Always feel safe and secure because we provide you with the support and care you need for a healthy and hopeful pregnancy experience.",
+      "our_approach": {
+        "list": {
+          "one": "Creating spaces that feel uniquely theirs",
+          "two": "we handle each project with care",
+          "three": "Ensuring every element is meticulously planned."
+        },
+        "title": "Our Approach"
+      },
+      "our_values": {
+        "list": {
+          "one": "Professionalism",
+          "two": "Innovation",
+          "three": "Personalized Care",
+          "four": "Patient-Centered Focus",
+          "five": "Integrity and Trust"
+        },
+        "title": "Our Values"
+      }
+    },
+    "testimonial": {
+      "testimonial": "Testimonial",
+      "happy_patients": "Happy Patients",
+      "description": "Our Costumer love the results they achieve with our treatments. Here are some of their testimonials.",
+      "message_one": "Dr. Mona is very good and caring very satisfied with my experience.",
+      "reviewer_one": "Ali Musallam",
+      "reviewer_title": "Lorem ipsum",
+      "message_two": "Good experience with Dr. Mona saad she is amazing and expert very kind and caring",
+      "reviewer_two": "Rehab Alsaiqaly",
+      "message_three": "Very good service.thanks to Dr Mona.",
+      "reviewer_three": "Ahmed Alomrii",
+      "message_four": "Dr. Mona, my gynecologist, provided exceptional care throughout my visit and delivery.",
+      "reviewer_four": "Delgia p. John",
+      "message_five": "I want to thank Doctor Mona Saad for a very smooth check up",
+      "reviewer_five": "cherrie rose tienzo"
+    },
+    "get_in_touch": {
+      "contact_us": "Contact Us",
+      "get_in_touch": "Get in Touch",
+      "description": "We would love to hear from you. Contact us for any inquiries or appoinments.",
+      "email": "Email",
+      "phone": "Phone",
+      "number": "+971 50 510 4889",
+      "clinic": "Clinic",
+      "location": "Sharjah - King Faisal Street - Medcare Hospital"
+    }
+  },
+  "footer": {
+    "home": "home",
+    "services": "services",
+    "about_us": "about us",
+    "blogs": "blogs",
+    "contact_us": "contact us",
+    "locations": "Locations",
+    "location_one": "Medcare Hospital - King Faisal St - Bu Shaghara - Hay Al Qasimiah - Sharjah",
+    "number": "+971 50 510 4889",
+    "clinic": "Clinic",
+    "copyright": "Copyright © 2024 Dr. Mona Saad"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "about_us": "about us",
+    "contact_us": "contact us",
+    "blogs": "blogs",
+    "services": "services",
+    "painless_delivery": "Painless Delivery",
+    "cosmotices": "Cosmetics",
+    "laparoscopic_surgery": "Laparoscopic Surgery",
+    "oncology_surgery": "Oncology Surgery",
+    "botox": "Botox for Vaginal Muscles",
+    "high_risk": "High-Risk Pregnancy",
+    "high_risk_pregnancy": "High-Risk Pregnancy",
+    "gallery": "Gallery",
+    "news": "News",
+    "female_cosmetic": "Female cosmetics",
+    "rare_conditions": "Rare conditions",
+    "rare_birth_of_no_identical_triplets": "Rare birth of Non-Identical triplets"
+  },
+  "about": {
+    "about_one": {
+      "small_title": "About Dr Mona",
+      "title": "About Dr Mona",
+      "description_one": "Dr. Mona Mohamed Saad is a distinguished consultant in the Department of Obstetrics and Gynecology at Medcare Hospital, Sharjah. With over two decades of experience, she has established herself as one of the most sought-after specialists in her field. Dr. Mona earned her Bachelor’s degree in Medicine and Surgery, followed by a PhD in Obstetrics and Gynecology from Ain Shams University in Egypt, as well as an additional doctorate in Reproductive Medicine. She also holds a Diploma in Total Quality Management and a Fellowship in Obstetrics and Gynecology. She is an active member of the American Association of Gynecologic Laparoscopists and the European Society of Aesthetic Gynecology.",
+      "description_two": "Throughout her career, Dr. Mona has worked in renowned hospitals in Egypt and the UAE, including Burjeel Hospital, where she served as a consultant in Obstetrics and Gynecology. Her clinical expertise spans a wide range of advanced procedures and treatments, including managing deep endometriosis, infertility and IVF, chronic pelvic pain, laparoscopic myomectomy, hysterectomy, and C-section scar repair. She is also skilled in Burch colposuspension for urinary incontinence, colposcopy, LEEP procedures, non-surgical treatments for abnormal uterine bleeding, and high-risk pregnancies. Her proficiency extends to the management of complex C-sections, polycystic ovary syndrome (PCOS), sexual health disorders, vaginismus, and aesthetic gynecological procedures.",
+      "description_three": "Beyond her professional life, Dr. Mona enjoys exploring her creative side. She is an avid reader of novels, a music enthusiast, and has a unique passion for motorcycle riding. Fluent in both Arabic and English, she connects effortlessly with patients from diverse backgrounds, ensuring they receive compassionate and expert care tailored to their individual needs.",
+      "book_an_appointment": "Book an Appointment",
+      "dr_mona_saad": "Dr. Mona Saad"
+    },
+    "about_two": {
+      "small_title": "Our Vision",
+      "title": "Dr Mona Vision",
+      "description": "Dr. Mona Saad aims to be a leader in the field of obstetrics and gynecology by providing cutting-edge medical and surgical solutions, with a particular emphasis on complex surgeries that enhance women s health and well-being. Her goal is to empower women to make informed deci sions about their reproductive health while delivering comprehensive medical care that combines expertise with empathy.",
+      "contact_us": "Contact Us",
+      "dr_mona_saad": "Dr. Mona Saad"
+    },
+    "about_three": {
+      "small_title": "Our Mission",
+      "title": "Dr Mona Mission",
+      "description": "Dr. Mona Saad mission is to offer exceptional women s healthcare by committing to medical excellen ce and utilizing the latest surgical techniques, particularly in handling high-risk and complex cases. She strives to improve the quality of life for women by providing holistic support, from accurate medical consultations to specialized surgical care, while maintaining the highest standards of safety and personalized attention.",
+      "book_an_appointment": "Book an Appointment",
+      "dr_mona_saad": "Dr. Mona Saad"
+    }
+  },
+  "contact_us": {
+    "contact_us": "Contact Us",
+    "form_title": "If you have any question or inquiry, Dont Hesitate to contact us any time.",
+    "your_name": "Your name",
+    "enter_your_email": "Enter your E-Mail",
+    "enter_your_message": "Enter your message",
+    "send": "Send",
+    "phone": "Phone Number",
+    "email": "E-Mail",
+    "address": "Address",
+    "number": "+971 50 510 4889",
+    "address_description": "Medcare Hospital - King Faisal St - Bu Shaghara - Hay Al Qasimiah - Sharjah",
+    "our_schedule": "Our schedule",
+    "working_hours": " Working Hours",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday (Royal Hospital - Dubai)",
+    "one_pm": "1 PM",
+    "nine_pm": "9 PM",
+    "twelve_pm": "12 PM",
+    "six_pm": "6 PM",
+    "nine_am": "9 AM",
+    "five_pm": "5 PM"
+  },
+  "blogs": {
+    "written_by": "Written by",
+    "latest_blogs": "Latest Blogs",
+    "view_more": "View More Blogs",
+    "dr_mona": "Dr. Mona"
+  },
+  "services": {
+    "what_are_you": "what are you waiting for",
+    "we_are_waiting": "We\u2019re Waiting You",
+    "book_an_appointment": "Book an Appointment",
+    "painless_delivery": "Painless Delivery",
+    "painless_delivery_description": "Everything you need to know about painless delivery",
+    "cosmotics": "Cosmetics",
+    "cosmotics_description": "Restore your beauty and confidence with advanced women's cosmetic services",
+    "laparoscopic_surgery": "Laparoscopic Surgery",
+    "laparoscopic_surgery_description": "Less pain and faster recovery",
+    "oncology_surgery": "Oncology Surgery",
+    "oncology_surgery_description": "Hope with meticulous care",
+    "botox": "Botox for Vaginal Muscles",
+    "botox_description": "The safe solution to restore your comfort",
+    "high_risk": "High-Risk Pregnancy",
+    "high_risk_description": "Specialized care for one of the most important stages of your life",
+    "learn_more": "Learn more",
+  "painless_delivery_details": {
+"title_one": "Painless Delivery in Sharjah & Dubai – Your Comfort, Our Priority",
+"description_one": "The birth of a child is a life-changing experience, and every woman deserves comfort, confidence, and expert care. Dr. Mona Saad offers painless delivery in Sharjah & Dubai using advanced methods to ensure a smoother birthing journey.",
+"description_two": {
+"one": "If you are seeking painless delivery in Sharjah, UAE, or the best painless normal delivery doctor in UAE, our personalized care programs focus on safety, emotional well-being, and support throughout labor."
+},
+"title_three": "Painless Delivery: The Modern Way to a Comfortable Birth",
+"description_three": "Painless delivery is a safe and effective way to reduce or completely block labour pain, usually through epidural anesthesia. It helps mothers go through childbirth with comfort, confidence, and active participation.",
+"title_four": "Key benefits of painless delivery (epidural anesthesia):",
+"benefits": [
+"Labour pain is reduced or blocked safely.",
+"Administered by an expert anesthesiologist in the lower back.",
+"The patient stays fully awake and in control (not like general anesthesia).",
+"Enables interaction with doctors and active role in childbirth.",
+"Let mothers hold their baby without the stress of severe pain.",
+"Promotes calmness, confidence, and positivity during delivery."
+],
+"description_four": "Dr. Mona Saad’s clinic provides painless delivery in Dubai & Sharjah, ensuring both safety and emotional well-being for every mother.",
+"title_five": "Is Painless Delivery Suitable for You?",
+"description_five": "There are some who believe it is a safe delivery method for the mother, but one should always check if it fares well with their health and pregnancy needs. It may be chosen by the features amongst well-maintained and all healthy women, of course, after a thorough assessment by Dr. Mona Saad during prenatal check-ups.",
+"assessment_criteria": [
+"The baby’s position and evaluating the labor-needs",
+"Any past medical history if you have gone through surgical procedures, allergies, or acute health conditions.",
+"Your preferences for style of birthing and your level of pain tolerance"
+],
+"customized_note": "This customised approach ensures that you have a safe birth planning ahead, by keeping in mind your comfort level and preferences. No matter if you go through the process of painless delivery in UAE, Dubai or Sharjah, you will receive once-in-a-lifetime delivery experience to ensure the safety of yourself and your newborn.",
+"title_six": "Safe & Comfortable Birth Options in the UAE & Sharjah",
+"description_six": "Dr. Mona Saad understands that labour experiences are never identical. Each mother’s journey to birth is very personal; hence she offer a variety of pain-free birthing alternatives so that the mother can choose the one that best corresponds to her comfort level, medical needs, or personal preference.",
+"pain_management_options": [
+{
+"name": "IV Pain Medication",
+"description": "An option for mothers to ease the pain of labour while opting not to go through with an epidural."
+},
+{
+"name": "Epidural Analgesia",
+"description": "which is perhaps the most trusted and reliable method of labouring pain relief, keeping one fully receptive and engaged in the birthing process."
+},
+{
+"name": "Breathing and Relaxation Techniques",
+"description": "With the help of these techniques you are more in control and calmer and they are often applied to medical pain reliefs to ease your journey for childbirth."
+}
+],
+"support_note": "Your patient-centred and flexible birth support with the painless normal delivery doctor in Dubai & Sharjah will encourage you to be comfortable in taking charge of your own birth experience while feeling supported, safe and reassured.",
+"title_seven": "Why Painless Delivery is the Preferred Choice for Mothers in Dubai",
+"description_seven": "Normal delivery being a painful and excruciating process mothers in the modern age prefer to go through the painless delivery process with the support of best practitioners like Dr. Mona Saad and improved treatments. Choosing this process does much more than just relieve pain; it gives an unmatched birth experience in an atmosphere of empowerment, safety and serenity.",
+"advantages": [
+"Majorly Reduced Anxiety & Pain: With a calmer mindset you can be more emotionally present and relaxed to welcome the baby.",
+"Full Participation in the Birthing Process: With a process like Epidural anesthesia you can be wide awake and alert throughout the delivery process, making it a more remarkable experience of your life.",
+"Quick Recovery After Delivery: In comparison to general anesthesia, epidural anesthesia is known for being associated with faster recovery.",
+"Personalised Pain Control: The extent of anesthesia can be increased or minimised at any stage to match your labour progress so you are never unsafe or uncomfortable."
+],
+"team_note": "With the first-class medical team, patient-first attitude and excellent facilities availing pain-free childbirth options in Dubai & Sharjah should give you the strength to focus on the most important thing-ever that is meeting your baby for the first time.",
+"title_eight": "Your Trusted Partner for Safe & Gentle Childbirth",
+"description_eight": "There is always the debate about how important choosing the right obstetrician is for safely delivering your baby. Dr. Mona Saad is an experienced Obstetrician-Gynecologist serving Dubai and Sharjah. Her compassion, clinical skill, and promise to safety makes her one of the easy-going and safe options for mothers.",
+"offerings": [
+"Laboratory Facilities: Equipped with advanced monitors adhering to the strictest safety levels for mother and baby.",
+"Expert Anesthesia Team: Work hand in hand with certified anesthetists like Dr. Mona Saad who is known for the safe administration of the epidural.",
+"Complete Maternity Care: Always there for you from your earliest prenatal checkups to your postnatal recovery, taking you through motherhood step by step.",
+"Personalised Birth Plans: Designed around your medical history, pregnancy progress, and personal preferences for a truly individualised experience."
+],
+"partner_note": "When it comes to Dr. Mona Saad, it is safe to say that she is not just your doctor but a dedicated partner who wants to be one of those that make your birthing journey the most comfortable, safest place for you to be.",
+"title_nine": "Most Asked Questions",
+"faqs": [
+{
+"question": "Is painless delivery safe?",
+"answer": "Yes. If administered by an expert, an epidural is safe for both the mother and the baby. Side effects are few, but they are closely monitored."
+},
+{
+"question": "When is the best time to administer an epidural?",
+"answer": "It is usually done during active labour, when contractions are regular and cervical dilation reaches about 4 cm. This is decided in consultation with the doctor and the anesthetist."
+},
+{
+"question": "What are the side effects?",
+"answer": "Temporary effects can be a slight drop in blood pressure, numbness, or headache. Long-term back pain is a myth and cannot be correlated with epidurals."
+},
+{
+"question": "Does an epidural affect breastfeeding?",
+"answer": "No, an epidural does not impact your ability to breastfeed. You will be alert, able to hold your baby, and begin skin-to-skin contact shortly after birth."
+},
+{
+"question": "Will I still feel contractions with an epidural?",
+"answer": "You may feel mild pressure or tightening during contractions, but the intense pain will be significantly reduced or completely eliminated, allowing you to stay calm and focused."
+}
+]
+},
+   "cosmotics_details": {
+    "title_one": "Advanced Cosmetic Gynecology Treatments for Women in Dubai & Sharjah",
+    "description_one": "Cosmetic gynecology in Sharjah and Dubai brings together modern medicine with aesthetic knowledge to enhance the appearance and function of the genital area. Women can change in ways that can limit comfort and confidence after giving birth, over time, or for genetic reasons. These changes can be corrected by safe, effective, non-invasive and minimally invasive cosmetic procedures specifically designed to address these concerns. Dr. Mona Saad is an industry leader in cosmetic gynecology, available in Dubai, is committed to providing individualized treatments that focus on natural results, a rehabilitated sense of confidence and improved overall wellness.",
+    "title_two": "Cosmetic Gynecology: An Overview",
+    "description_two": "Aesthetic or cosmetic gynecology is the name for a series of medical or surgical procedures used to change the aesthetic, feel and function of intimate regions of the female body. Even though many treatments in aesthetic or cosmetic gynecology focus on the appearance, they do far more like helping women improve their sexual wellness, regain their confidence and improve everyday comfort. Whether addressing labial unevenness, laxity of the vaginal canal, or improved sensitivity, cosmetic gynecology in Dubai & Sharjah.",
+    "title_three": "Specialized Intimate Wellness Procedures in Sharjah and Dubai",
+    "procedures": [
+      {
+        "name": "Labiaplasty",
+        "description": "Labiaplasty is a surgical operation to reshape or decrease the size of the labia minora or majora, giving a more natural and balanced look. Most women have this surgery done so they can eliminate pain when engaging in physical activity, become more comfortable in intimate relationships, or regain what has been altered following childbirth. Dr. Mona Saad is an established labiaplasty specialist in Dubai & Sharjah famous for delivering great outcomes while being considerate and patient-centered."
+      },
+      {
+        "name": "PRP Treatment",
+        "description": "In Dubai, PRP treatment utilizes the body's own platelet rich plasma to rejuvenate vaginal tissues naturally. PRP will increase collagen and promote blood circulation, restoring elasticity in vaginal tissues, increased lubrication and speeding healing. PRP treatment in Dubai is a safe, non-surgical treatment, especially for women experiencing vaginal dryness, thinning of tissues or mild urinary incontinence."
+      },
+      {
+        "name": "O-Shot Treatment",
+        "description": "This process is also known as the Orgasm Shot or O Shot treatment in Dubai & Sharjah. It generally includes PRP injection in certain areas so that sensitivity of sexual function is increased. Women frequently experience a more prominent orgasm with more lubrication, and more confidence in their sex lives. The O-Shot may also beneficially affect mild urinary leakage, a difficulty for many women."
+      },
+      {
+        "name": "J-Spot Treatment",
+        "description": "The Dubai J-Spot is a quick, safe, non-surgical enhancement designed to heighten G-spot sensitivity and stimulation. The J-Spot maximizes the G-spot, finishing the treatment rapidly, safely and precisely as a single solution and as part of a custom J-Spot Treatment Dubai & Sharjah customised uniquely for each individual to reach their intimate wellness objectives."
+      }
+    ],
+    "title_four": "Candidacy for Cosmetic Gynecology in Sharjah & Dubai",
+    "description_four": "The treatments like O-Shot in Dubai & Sharjah, aesthetic gynecology in Sharjah & Dubai are not restricted to a particular age bracket or stage of life as it can benefit women with different issues at different stages of life and age.",
+    "candidacy_reasons": [
+      "Large or uneven labia causing pain with undressing or causing worry about what is acceptable under clothes or in life.",
+      "Vaginal looseness or dryness due to childbirth or menopause.",
+      "Decreased sexual sensitivity or enjoyment with intercourse.",
+      "Thinning of tissues as a result of hormonal shifts or menopause.",
+      "Enhancing and altering the overall look of intimate regions."
+    ],
+    "privacy_note": "Everything is done in a private, humane setting with utmost regard and care for your privacy, comfort, and health care objectives.",
+    "title_five": "Why Choose Dr. Mona Saad",
+    "description_five": "Dr. Mona Saad, has gained a reputation as one of the best aesthetic gynecologists in Sharjah and Dubai. With years of experience in medical gynecology as well as intimate cosmetic care, Dr. Saad has a unique understanding about feminine aesthetics - patients can count on medical accuracy and aesthetic sense producing results that look natural and feel good.",
+    "offerings": [
+      "Individual consultations in a respectful and confidential environment.",
+      "Customized therapy plans aligned to the patient's lifestyle and goals.",
+      "Minimally invasive procedures often require lesser recovery time."
+    ],
+    "title_six": "Most Asked Questions",
+    "faqs": [
+      {
+        "question": "Is cosmetic gynecology meant for aesthetic purposes primarily?",
+        "answer": "No. Although a lot of the procedures have an aesthetic benefit, cosmetic procedures in Dubai and Sharjah serve to enhance the function and comfort of the female genitalia and improve sexual health. For instance, a labiaplasty can minimize daily discomfort, while PRP treatments can help restore the normal function of healthy tissue."
+      },
+      {
+        "question": "How long is the recovery time from labiaplasty?",
+        "answer": "The time to recover varies on the individual but most women are able to do light activity after a week and it may take 4-6 weeks to heal completely. Dr. Mona Saad provides individualized after-care instructions to ensure recovery is safe for you."
+      },
+      {
+        "question": "Are PRP and O-Shot treatments safe?",
+        "answer": "Yes. Since both treatments are natural and take the platelet-rich plasma out of your own blood, they are extremely low risk. You may have some slight swelling or redness but that should settle in a day or two."
+      },
+      {
+        "question": "Can aesthetic gynecology address urinary incontinence?",
+        "answer": "Yes. Treatments like PRP therapy and the O-Shot in Dubai have produced effective results for mild urinary leakage; it works to improve vaginal tissues in order to strengthen and rejuvenate."
+      },
+      {
+        "question": "Who is the best candidate for cosmetic gynecology?",
+        "answer": "Women who are experiencing laxity in the vaginal area, dryness, labial irregularities, reduced sensitivity, or have noticed structural changes after having children, would be good candidates for aesthetic gynecology. After a consultation, Dr Mona Saad will determine the best procedure for you."
+      }
+    ]
+  },
+      "laparoscopic_surgery_details": {
+    "title_one": "Advanced Laparoscopic Gynecology Surgery in Dubai & Sharjah",
+    "description_one": "Laparoscopic surgery, also known as minimally invasive surgery, is a cutting-edge technique that allows for precise gynecological procedures with minimal incisions. Utilizing small instruments and a high-definition camera, our expert surgeons can visualize and treat internal organs with exceptional accuracy, ensuring faster recovery and minimal discomfort. Dr. Mona Saad, a leading specialist in Dubai and Sharjah, offers advanced laparoscopic surgery tailored to meet individual patient needs with the highest standards of care.",
+    "title_two": "Why Choose Laparoscopic Surgery?",
+    "description_two": [
+      {
+        "point": "Minimal Pain and Faster Recovery",
+        "description": "Small incisions result in significantly less postoperative pain and quicker recovery times compared to traditional open surgery."
+      },
+      {
+        "point": "Enhanced Cosmetic Outcomes",
+        "description": "The use of tiny incisions minimizes scarring, providing better aesthetic results for patients."
+      },
+      {
+        "point": "Superior Precision and Safety",
+        "description": "High-definition cameras and advanced instruments allow for precise visualization and manipulation of internal organs, ensuring safe and effective procedures."
+      }
+    ],
+    "title_three": "Conditions Treated with Laparoscopic Surgery",
+    "conditions": [
+      "Removal of uterine fibroids (myomectomy).",
+      "Treatment of ovarian cysts and related conditions.",
+      "Management of endometriosis, including excision of endometrial tissue.",
+      "Hysterectomy for benign or malignant conditions.",
+      "Diagnosis and treatment of pelvic pain or abnormal bleeding."
+    ],
+    "title_four": "Benefits of Laparoscopic Surgery with Dr. Mona Saad",
+    "benefits": [
+      {
+        "point": "Personalized Care",
+        "description": "Each procedure is tailored to the patient’s medical history, condition, and preferences, ensuring optimal outcomes."
+      },
+      {
+        "point": "State-of-the-Art Technology",
+        "description": "Our clinic uses the latest laparoscopic equipment to deliver precise and safe surgical interventions."
+      },
+      {
+        "point": "Expert Surgical Team",
+        "description": "Led by Dr. Mona Saad, our team of highly skilled professionals ensures compassionate care and exceptional results."
+      },
+      {
+        "point": "Reduced Hospital Stay",
+        "description": "Most patients can return home the same day or within 24 hours, allowing for a quicker return to daily activities."
+      }
+    ],
+    "title_five": "Is Laparoscopic Surgery Right for You?",
+    "description_five": "Laparoscopic surgery is suitable for many gynecological conditions but requires a thorough evaluation to ensure it’s the best option. During a consultation, Dr. Mona Saad assesses factors such as your medical history, the severity of your condition, and your overall health to create a personalized treatment plan. This approach ensures safety, effectiveness, and alignment with your health goals.",
+    "title_six": "Most Asked Questions",
+    "faqs": [
+      {
+        "question": "Is laparoscopic surgery safe?",
+        "answer": "Yes, when performed by an experienced surgeon like Dr. Mona Saad, laparoscopic surgery is highly safe with a low risk of complications. Advanced technology and meticulous care further enhance safety."
+      },
+      {
+        "question": "How long is the recovery period?",
+        "answer": "Recovery varies by procedure, but most patients resume light activities within a few days and fully recover within 1-2 weeks, significantly faster than traditional surgery."
+      },
+      {
+        "question": "Will I have visible scars?",
+        "answer": "Laparoscopic surgery uses tiny incisions, typically less than 1 cm, resulting in minimal, often barely noticeable scars."
+      },
+      {
+        "question": "Can laparoscopic surgery treat all gynecological conditions?",
+        "answer": "While it’s effective for many conditions like fibroids, cysts, and endometriosis, some cases may require open surgery. A consultation with Dr. Mona Saad will determine the best approach."
+      },
+      {
+        "question": "How do I prepare for laparoscopic surgery?",
+        "answer": "Dr. Mona Saad’s team provides detailed preoperative instructions, including fasting, medication adjustments, and other preparations to ensure a smooth procedure."
+      }
+    ],
+    "title_seven": "Schedule Your Consultation Today",
+    "description_seven": "If you’re seeking a precise, safe, and minimally invasive solution for your gynecological concerns, laparoscopic surgery with Dr. Mona Saad in Dubai and Sharjah is the ideal choice. Our dedicated team is committed to providing exceptional care using cutting-edge technology. Book your consultation today to start your journey toward better health and well-being."
+  },
+"oncology_surgery_details": {
+    "title_one": "Oncology Surgery in Sharjah & Dubai – Specialized Cancer Care for Women",
+    "description_one": "There is a need for precision and empathy in the treatment of cancer. Dr. Mona Saad, one of the most skilled oncology surgeons in Dubai and Sharjah, offers highly specialized surgical solutions to gynecological cancers. With her expertise in minimally invasive and complex cancer surgery, women benefit from excellent care with personalized touch. For oncology surgery in Sharjah or Dubai or finding the top oncologist in Dubai, Dr. Mona Saad is relied upon for her patient-centric practice, dedication and expertise to deliver better results in treating cancer in the UAE.",
+    "title_two": "Dr. Mona Saad: Centering the Patient in Cancer Surgery",
+    "description_two": "This need sets Dr. Mona Saad, an oncologist Dubai, apart from her focus on women's oncology surgery whereby procedures are designed around the individual needs of gynecologic malignancies. She feels surgery must be something that aids women in reclaiming their strength, confidence, and quality of life, as opposed to simply dispensing with the disease.",
+    "surgical_specialties": [
+      "Operations for ovarian and uterine cancers",
+      "Treatments for cervical cancer",
+      "Vaginal and vulvar cancer operations",
+      "Removal of complex pelvic tumors",
+      "Management of pre-cancerous lesions"
+    ],
+    "title_three": "Oncology Surgery: When Is It Recommended?",
+    "description_three": "Every woman travels through her particular pit of cancer. Dr. Mona Saad may suggest undergoing oncology surgery in Dubai or Sharjah under the following conditions:",
+    "conditions": [
+      "If a biopsy shows malignant changes",
+      "If the imaging reveals growths in reproductive organs",
+      "When pre-cancerous cells have a high risk in turning malignant",
+      "When the cancer has reappeared after treatment",
+      "When alongside radiation or chemotherapy another surgery is needed"
+    ],
+    "approach_note": "With her patient-first approach, Dr. Mona Saad leaves no decision to be taken without proper evaluation and discussion.",
+    "title_four": "Why Women Choose Dr. Mona Saad",
+    "description_four": "Those seeking the best oncologist in Dubai or Sharjah are drawn to Dr. Mona Saad because she:",
+    "reasons": [
+      "Uses modern surgical methods to achieve greater results",
+      "Creates an individual treatment plan rather than standard options",
+      "Works with a diverse team when patients need complete cancer care",
+      "Provides support to patients and their families, both practically and emotionally",
+      "Proven success rates in treating the disease and years of experience in gynecological oncology"
+    ],
+    "title_five": "Oncology Surgery in the UAE – Expanding Care Beyond Dubai",
+    "description_five": "Women do not have to look far for the best and safe cancer treatment anymore. Dr. Mona Saad offers oncology surgery in Sharjah and throughout the UAE, ensuring high-quality treatment is within reach for patients from various locations. Her standing as among the best oncologists in UAE results in women from all over the country frequently consulting her and availing of her surgical skills.",
+    "title_six": "Take the First Step Towards Recovery",
+    "description_six": "Early treatment is essential and can make a huge difference in the process of recovering from cancer. Dr. Mona Saad, who is a top oncology surgeon in Dubai and Sharjah, provides transparent and modern surgical care with empathy at each step. Schedule a consultation today to talk about your options and start your path towards healing.",
+    "title_seven": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "question": "What is oncology surgery?",
+        "answer": "It is a tumor and affected tissue removal through surgery to manage or cure cancer."
+      },
+      {
+        "question": "What types of cancers does Dr. Mona Saad treat?",
+        "answer": "She treats ovarian, cervical, uterine, vaginal, and vulvar cancers, along with complicated pelvic tumors."
+      },
+      {
+        "question": "Will I require other treatments?",
+        "answer": "Yes, surgery can be part of an overall plan that involves chemotherapy or radiation."
+      },
+      {
+        "question": "What are the risks?",
+        "answer": "Similar to any operation, there are risks, but with a seasoned oncology surgeon in Dubai such as Dr. Mona Saad, risks are mitigated."
+      },
+      {
+        "question": "Is this service offered outside of Dubai?",
+        "answer": "Yes, oncology surgery is performed by Dr. Mona Saad in Sharjah and throughout the UAE."
+      }
+    ]
+  },
+  "botox_details": {
+    "title_one": "Botox Injection to treat Vaginismus in Sharjah & Dubai – Regaining Confidence & Comfort",
+    "description_one": "A woman’s life can be severely hampered by painful sex or pelvic tension. Dr. Mona Saad offers most modernised and secure treatments, such as Botox for Vaginal Muscles in Sharjah and Dubai, enabling women to find relief from vaginismus and pelvic floor disorders using safe, less-invasive treatment. Being a leading practitioner in the department of women’s health, Dr. Mona Saad unites medical know-how with empathy to provide treatments that return women to comfort and confidence, both mentally and physically. For those who need the best Vaginismus Treatment in Dubai readying for a Botox cure, Dr. Mona Saad offers you the discreet, secure and customized Vaginismus Treatment.",
+    "title_two": "What is Vaginismus and How does it Occur?",
+    "description_two": "Vaginismus is a more specific and focused disorder, the vaginal muscles contract without being genetic, which can make penetration painful or simply impossible. Many women suffer in silence with this condition And can also experience:",
+    "symptoms": [
+      "Pain during intimacy",
+      "Difficulty during gynecological exams",
+      "Inability to use tampons",
+      "Chronic pelvic muscle tension"
+    ],
+    "approach_note": "Dr. Mona Saad thoroughly evaluates every case and recommends vaginal Botox or additional supportive solutions as part of a comprehensive treatment plan to help women reclaim their pelvic health and confidence.",
+    "title_three": "How Botox for Vaginal Muscles Works",
+    "description_three": "Botox for Vaginismus Treatment is a procedure in which small amounts of Botox are injected into the pelvic floor muscles. It helps by:",
+    "benefits": [
+      "Relaxing the tight muscles that are in spasm",
+      "Reducing Pain During Intercourse or Examinations",
+      "Improving Pelvic Muscle Function"
+    ],
+    "results_note": "Many women report lasting effects after just one session of pelvic floor botox injections in Dubai and Sharjah. The results typically last several months, and significant improvements are usually noticeable within weeks.",
+    "title_four": "Who Should Consider Pelvic Floor Botox?",
+    "description_four": "Dr. Mona Saad might suggest the vaginal botox injections if you:",
+    "candidates": [
+      "Have vaginismus that does not get better with other treatments",
+      "Have constant pelvic tightness and spasms",
+      "Struggle with pain during intimacy or medical examinations",
+      "Pelvic floor disorders affect quality of life"
+    ],
+    "privacy_note": "This ensures that every woman has an opportunity to seek Vaginismus Treatment in Dubai in a respectful and private manner.",
+    "title_five": "Pelvic Floor Botox Recovery – What to Expect",
+    "description_five": "Smooth recovery is one of the reasons women opt for this treatment. Pelvic floor Botox recovery involves:",
+    "recovery_details": [
+      "It is an outpatient procedure (no hospital stay).",
+      "Mild soreness for a few days",
+      "You will notice the difference in 1-2 weeks.",
+      "Maximum effect within 4–6 weeks",
+      "Advice on what to do next in case another session is needed."
+    ],
+    "support_note": "Dr. Mona Saad supports them throughout their recovery to ensure they feel reassured and confident after the pelvic floor Botox injections in Dubai or Sharjah.",
+    "title_six": "Why Select Dr. Mona Saad for Vaginismus Cure?",
+    "description_six": "As a trusted women’s health expert, Dr. Mona Saad is a leader in providing Botox for Vaginismus Treatment and other pelvic floor therapies.",
+    "reasons": [
+      {
+        "point": "Expert in gynecological Botox treatments",
+        "description": "Dr. Mona Saad has extensive experience in administering Botox for pelvic floor disorders."
+      },
+      {
+        "point": "Confidential, compassionate approach",
+        "description": "She prioritizes patient privacy and emotional well-being throughout the treatment process."
+      },
+      {
+        "point": "Customised solutions for every patient’s needs",
+        "description": "Each treatment plan is tailored to address individual symptoms and goals."
+      }
+    ],
+    "success_note": "Her expertise in vaginal Botox has empowered numerous women to reclaim their health and live pain-free, confident lives.",
+    "title_seven": "Book Your Consultation Today",
+    "description_seven": "If vaginismus or pelvic floor pain is affecting your life, it doesn’t have to stay that way. With Botox for Vaginal Muscles, Dr. Mona Saad provides a safe, proven, and effective way to restore comfort. Contact to schedule your appointment and learn more about your options for pelvic floor botox injections dubai with a renowned expert like Dr. Mona Saad.",
+    "title_eight": "Commonly Asked Questions",
+    "faqs": [
+      {
+        "question": "What is Vaginismus?",
+        "answer": "It is an involuntary tightening of the vaginal muscles, which makes penetration painful or impossible."
+      },
+      {
+        "question": "How does Botox help?",
+        "answer": "Vaginal Botox targets the pelvic floor muscles, reducing spasms and alleviating pain."
+      },
+      {
+        "question": "How long do the results remain noticeable?",
+        "answer": "The relief typically lasts for 4–6 months, and repeat treatment is then recommended."
+      },
+      {
+        "question": "Is recovery difficult?",
+        "answer": "No, pelvic floor Botox recovery is usually smooth, and any soreness experienced usually fades within a couple of days."
+      },
+      {
+        "question": "Is this treatment available in Dubai?",
+        "answer": "Yes, Dr. Mona Saad offers pelvic floor Botox injections in Dubai and Sharjah for women."
+      }
+    ]
+  },
+      "high_risk_pregnancy_details": {
+    "title_one": "Sharjah & Dubai High-Risk Pregnancy Care – Reliable Medical Assistance",
+    "description_one": "Pregnancy is a unique phase of every woman's life, yet at times, it is accompanied by extra medical complications that require expert care. Women can completely trust Dr. Mona Saad for a High-Risk Pregnancy in Dubai or a High-Risk Pregnancy in Sharjah, a renowned name in women's health. Being a top-notch High-Risk Pregnancy Specialist in Dubai, she offers sophisticated monitoring, early interventions, and customized treatment so that both the mother and child are always safe and sound throughout the process. With years of experience as a specialist for high-risk pregnancy Dubai, Dr. Saad makes sure that pregnant women get the best of medical care in a reassuring and supportive environment.",
+    "title_two": "A Safer Route to Motherhood with Dr. Mona Saad",
+    "description_two": "Dr. Mona Saad, one of the best obstetrician for high-risk pregnancy in Dubai, with her holistic philosophy makes the mothers feel safe and confident throughout all phases of their pregnancy.",
+    "title_three": "Understanding High-Risk Pregnancy",
+    "description_three": "A pregnancy is classified 'high-risk' if health concerns or medical conditions raise the likelihood of complications for the mother, the infant, or both. The risk of pregnancy can be due to pre-existing conditions or emerge during pregnancy.",
+    "risk_factors": [
+      "Hypertension and preeclampsia",
+      "Gestational diabetes",
+      "Multiple gestation, such as twins or triplets",
+      "History of premature birth",
+      "Pregnancy at late maternal age (above 35) or very early age (below 18)",
+      "Heart, kidney, or autoimmune diseases",
+      "Obesity, smoking, or other life styles"
+    ],
+    "risk_note": "Identifying these risks early and beginning high-risk prenatal care Dubai ensures complications are dealt with well.",
+    "title_four": "Comprehensive High-Risk Prenatal Care in Dubai & Sharjah",
+    "description_four": "Dr. Mona Saad's clinic is a highly acclaimed High-Risk Pregnancy Centre in the UAE and provides individualized care for each of her patients, including:",
+    "care_services": [
+      "Detailed assessment of risk factors",
+      "Recurring ultrasounds and diagnostic testing for close monitoring",
+      "Shared care with cardiologists, endocrinologists, and other specialists if necessary",
+      "Nutritional and lifestyle counseling to minimize risks",
+      "Personalized birth planning for safe delivery",
+      "Psychological and emotional support for mothers and families"
+    ],
+    "title_five": "When to Visit a High-Risk Pregnancy Specialist?",
+    "description_five": "It is important to visit a High-Risk Pregnancy Physician in Dubai or Sharjah if you belong to any of the following categories:",
+    "visit_indicators": [
+      "Chronic ailments like diabetes or thyroid disease or hypertension",
+      "Having a history of previous miscarriages or pregnancy complications",
+      "Carrying multiples (twins, triplets, or more)",
+      "Above 35 years old during pregnancy",
+      "Picking up risk markers upon routine prenatal testing"
+    ],
+    "visit_note": "If you choose a specialist like Dr. Mona Saad for your high-risk pregnancy during the correct time, you greatly improve your odds of an easy pregnancy and safe delivery.",
+    "title_six": "Why Dr. Mona Saad – Top Obstetrician in Dubai for High-Risk Pregnancy",
+    "description_six": "Dr. Mona Saad is the top obstetrician in Dubai and Sharjah for high-risk pregnancy due to her best skills and caring attitude. Her patients appreciate her for:",
+    "reasons": [
+      "High hands-on experience with complex pregnancies",
+      "Individualized medical treatments for unique cases",
+      "Application of latest diagnostic technologies and fetal monitoring",
+      "Coordination with the neonatal teams to guarantee the safety of newborns"
+    ],
+    "choice_note": "Dr. Mona Saad’s commitment renders her the first option for women who require dependable high-risk prenatal care Dubai.",
+    "title_seven": "Your go-to High-Risk Pregnancy Centre in Sharjah & Dubai",
+    "description_seven": "Wherever you are in Dubai, Sharjah, or the rest of the UAE, Dr. Mona Saad's clinic will offer you a specialised treatment and options for high-risk pregnancy. Each patient is navigated with compassion and professional expertise to the healthiest possible outcome.",
+    "title_eight": "Book Your Consultation Today",
+    "description_eight": "If you are worried about a High-Risk Pregnancy in Sharjah or need advice for a High-Risk Pregnancy in Dubai, book an appointment with Dr. Mona Saad. Through vigilant monitoring and professional assistance, your path to motherhood can continue to be safe and pleasant.",
+    "title_nine": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "question": "How will I know if my pregnancy is high-risk?",
+        "answer": "A pregnancy can be high-risk if you have certain medical conditions, are above the age of 35, expecting twins or more, or when your physician detects complications in regular check-ups."
+      },
+      {
+        "question": "Can a high-risk pregnancy be treated safely?",
+        "answer": "Yes. With the right medical care, specialized screening, and advice from a High-Risk Pregnancy Doctor in Dubai, most high-risk pregnancies result in safe deliveries."
+      },
+      {
+        "question": "When do I need to see a specialist for high-risk pregnancy Dubai?",
+        "answer": "You should seek early consultation during pregnancy if you have diabetes, hypertension, thyroid disease, or history of pregnancy loss."
+      },
+      {
+        "question": "What does high-risk prenatal care Dubai comprise?",
+        "answer": "It involves routine ultrasounds, monitoring of blood pressure, genetic testing, diet counseling, and planning for delivery adapted to individual cases."
+      },
+      {
+        "question": "Is there a separate High-Risk Pregnancy Centre in Sharjah & Dubai?",
+        "answer": "Yes, Dr. Mona Saad operates a reliable clinic that is an accredited High-Risk Pregnancy Centre where mothers are given thorough, specialized care."
+      }
+    ]
+  }
+  },
+  "gallery": {
+    "one": "6kg uterine tumour extracted from womb of 28-year-old Sharjah woman",
+    "two": "10 big tumours removed from woman's womb in Dubai",
+    "three": "Video: Obese and diabetic woman in UAE delivers baby after five miscarriages",
+    "four": "UAE doctors remove 23 tumours from woman's uterus",
+    "five": " Tunisian Mother Delivers Healthy Baby in Rare Heterotopic Pregnancy",
+    "six": " Dr. Mona Saad | Learn about the most important things that happen during puberty | Your personal doctor",
+    "seven": "Rare birth of non-identical triplets in Sharjah",
+    "seven_details": "Thank God, and because every hard worker gets his share ♥ I was surprised today by the spread of the news of the rare caesarean section of the triplets that was done by me at Burjeel Hospital - Sharjah on many well-known websites and sources, and congratulations from many colleagues and followers. Thank you very much for the great love and the greatest support ♥",
+    "seven_details_one": "You can read some of the news sources on the Al Khaleej website through the link",
+    "seven_details_two": "And on the Emirates Today website through",
+    "seven_details_three": "And on the Sharjah News account through",
+    "seven_details_four": "My number to contact you",
+    "seven_deatils_five": "We are here to help you",
+    "seven_details_link": "Click here",
+    "eight": "Removal of a tumor from the uterus of a fifty-year-old woman",
+    "nine": "Meet Dr. Mona Mohamed Emad Saad, Gynecologist and Obstetrician for cosmetic gynecology treatments."
+  },
+  "cosmetics": {
+    "cut": "Cosmetic surgery for the inner labia for a more suitable and beautiful shape"
+  },
+  "rare": {
+    "one": "A case of an unmarried girl whose belly started to grow",
+    "two": "Swelling from the lower abdomen extending to the stomach and diaphragm. After examination, the doctor discovered 3 fibroids, the largest of which was 22 cm in size.",
+    "three": "A case of severe adhesions resulting from repeated surgeries, because our patient had given birth three times by cesarean section and also had an appendectomy performed surgically, not laparoscopically.",
+    "four": "Our case today is a newly married woman who has never been pregnant. She was suffering from severe pain.",
+    "five": "Cases of ovarian twisting around itself are very painful cases that cause blood to be cut off from the organ. Although it is an uncommon problem, it is an emergency and requires treatment as soon as possible to avoid serious complications.",
+    "rare_case": "Two wombs and two vaginas in one body, working equally well"
+  }
+}
