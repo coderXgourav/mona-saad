@@ -2,7 +2,7 @@ import { BreadCrumb } from "@/app/components/BreadCrumb";
 import { getDictionary } from "@/dictionaries";
 import { Locale } from "@/i18n-config";
 import Image from "next/image";
-import HighRiskPregnancyImage from "/public/services/highRiskPregnancy.webp";
+import HighRiskPregnancyImage from "@/public/services/highRiskPregnancy.webp";
 import { AnimationWrapper } from "@/app/components/AnimationWrapper";
 
 import { generatePageMetadata } from "@/app/lib/seo-utils";
@@ -24,6 +24,8 @@ export default async function HighRiskPregnancy({
   params: { lang: Locale };
 }) {
   const dict = await getDictionary(params.lang);
+
+  type Faq = { question: string; answer: string };
   return (
     <section className="content-wrapper text-primary">
       <BreadCrumb
@@ -67,7 +69,7 @@ export default async function HighRiskPregnancy({
             {dict.services.high_risk_pregnancy_details.description_three}
           </p>
           <ul className="list-disc list-inside space-y-2 text-lg mb-4">
-            {dict.services.high_risk_pregnancy_details.risk_factors.map((factor, index) => (
+            {dict.services.high_risk_pregnancy_details.risk_factors.map((factor: string, index: number) => (
               <li key={index} className="leading-relaxed">{factor}</li>
             ))}
           </ul>
@@ -85,7 +87,7 @@ export default async function HighRiskPregnancy({
             {dict.services.high_risk_pregnancy_details.description_four}
           </p>
           <ul className="space-y-3 text-lg">
-            {dict.services.high_risk_pregnancy_details.care_services.map((service, index) => (
+            {dict.services.high_risk_pregnancy_details.care_services.map((service: string, index: number) => (
               <li key={index} className="flex items-start gap-2">
                 <span className="text-[#961F5F] font-semibold mt-1">✓</span>
                 <span className="leading-relaxed">{service}</span>
@@ -103,7 +105,7 @@ export default async function HighRiskPregnancy({
             {dict.services.high_risk_pregnancy_details.description_five}
           </p>
           <ul className="list-disc list-inside space-y-2 text-lg mb-4">
-            {dict.services.high_risk_pregnancy_details.visit_indicators.map((indicator, index) => (
+            {dict.services.high_risk_pregnancy_details.visit_indicators.map((indicator: string, index: number) => (
               <li key={index} className="leading-relaxed">{indicator}</li>
             ))}
           </ul>
@@ -121,7 +123,7 @@ export default async function HighRiskPregnancy({
             {dict.services.high_risk_pregnancy_details.description_six}
           </p>
           <ul className="space-y-3 text-lg">
-            {dict.services.high_risk_pregnancy_details.reasons.map((reason, index) => (
+            {dict.services.high_risk_pregnancy_details.reasons.map((reason: string, index: number) => (
               <li key={index} className="flex items-start gap-2">
                 <span className="text-[#961F5F] font-semibold mt-1">✓</span>
                 <span className="leading-relaxed">{reason}</span>
@@ -159,7 +161,7 @@ export default async function HighRiskPregnancy({
             {dict.services.high_risk_pregnancy_details.title_nine}
           </h3>
           <div className="space-y-6">
-            {dict.services.high_risk_pregnancy_details.faqs.map((faq, index) => (
+            {dict.services.high_risk_pregnancy_details.faqs.map((faq: Faq, index: number) => (
               <div key={index} className="border border-gray-200 rounded-lg p-6">
                 <h3 className="text-lg font-semibold mb-2 text-[#961F5F]">{faq.question}</h3>
                 <p className="text-lg leading-relaxed">{faq.answer}</p>

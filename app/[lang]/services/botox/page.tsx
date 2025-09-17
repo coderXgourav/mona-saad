@@ -9,49 +9,7 @@ import { generatePageMetadata } from "@/app/lib/seo-utils";
 import { getSEOConfig } from "@/app/lib/seo-config";
 import type { Metadata } from "next";
 
-// Define the dictionary type based on your dictionary structure
-interface Dictionary {
-  breadcrumb: {
-    botox: string;
-  };
-  services: {
-    botox_details: {
-      title_one: string;
-      description_one: string;
-      title_two: string;
-      description_two: string;
-      symptoms: string[];
-      approach_note: string;
-      title_three: string;
-      description_three: string;
-      benefits: string[];
-      results_note: string;
-      title_four: string;
-      description_four: string;
-      candidates: string[];
-      privacy_note: string;
-      title_five: string;
-      description_five: string;
-      recovery_details: string[];
-      support_note: string;
-      title_six: string;
-      description_six: string;
-      reasons: { point: string; description: string }[];
-      success_note: string;
-      title_seven: string;
-      description_seven: string;
-      title_eight: string;
-      faqs: { question: string; answer: string }[];
-    };
-  };
-}
-
-// Define props for BreadCrumb component (adjust based on your actual component)
-interface BreadCrumbProps {
-  dict: Dictionary;
-  params: { lang: Locale };
-  serviceTitle: string;
-}
+// Use the shared Dictionary type from the central definitions
 
 // Metadata generation
 export async function generateMetadata({
@@ -65,7 +23,11 @@ export async function generateMetadata({
 
 // Main page component
 export default async function Botox({ params }: { params: { lang: Locale } }) {
-  const dict: Dictionary = await getDictionary(params.lang);
+  const dict = await getDictionary(params.lang);
+
+  // Local types for structured data used by this page
+  type Reason = { point: string; description: string };
+  type Faq = { question: string; answer: string };
 
   return (
     <section className="content-wrapper text-primary">
@@ -100,7 +62,7 @@ export default async function Botox({ params }: { params: { lang: Locale } }) {
             {dict.services.botox_details.description_two}
           </p>
           <ul className="list-disc list-inside space-y-2 text-lg mb-4">
-            {dict.services.botox_details.symptoms.map((symptom, index) => (
+            {dict.services.botox_details.symptoms.map((symptom: string, index: number) => (
               <li key={index} className="leading-relaxed">{symptom}</li>
             ))}
           </ul>
@@ -118,7 +80,7 @@ export default async function Botox({ params }: { params: { lang: Locale } }) {
             {dict.services.botox_details.description_three}
           </p>
           <ul className="space-y-3 text-lg">
-            {dict.services.botox_details.benefits.map((benefit, index) => (
+            {dict.services.botox_details.benefits.map((benefit: string, index: number) => (
               <li key={index} className="flex items-start gap-2">
                 <span className="text-[#961F5F] font-semibold mt-1">✓</span>
                 <span className="leading-relaxed">{benefit}</span>
@@ -139,7 +101,7 @@ export default async function Botox({ params }: { params: { lang: Locale } }) {
             {dict.services.botox_details.description_four}
           </p>
           <ul className="list-disc list-inside space-y-2 text-lg mb-4">
-            {dict.services.botox_details.candidates.map((candidate, index) => (
+            {dict.services.botox_details.candidates.map((candidate: string, index: number) => (
               <li key={index} className="leading-relaxed">{candidate}</li>
             ))}
           </ul>
@@ -157,7 +119,7 @@ export default async function Botox({ params }: { params: { lang: Locale } }) {
             {dict.services.botox_details.description_five}
           </p>
           <ul className="list-disc list-inside space-y-2 text-lg">
-            {dict.services.botox_details.recovery_details.map((detail, index) => (
+            {dict.services.botox_details.recovery_details.map((detail: string, index: number) => (
               <li key={index} className="leading-relaxed">{detail}</li>
             ))}
           </ul>
@@ -178,7 +140,7 @@ export default async function Botox({ params }: { params: { lang: Locale } }) {
             What Makes Her a Preferred Choice?
           </h3>
           <div className="space-y-4">
-            {dict.services.botox_details.reasons.map((reason, index) => (
+            {dict.services.botox_details.reasons.map((reason: Reason, index: number) => (
               <div key={index} className="flex items-start gap-2">
                 <span className="text-[#961F5F] font-semibold mt-1">✓</span>
                 <div>
@@ -209,7 +171,7 @@ export default async function Botox({ params }: { params: { lang: Locale } }) {
             {dict.services.botox_details.title_eight}
           </h3>
           <div className="space-y-6">
-            {dict.services.botox_details.faqs.map((faq, index) => (
+            {dict.services.botox_details.faqs.map((faq: Faq, index: number) => (
               <div key={index} className="border border-gray-200 rounded-lg p-6">
                 <h3 className="text-lg font-semibold mb-2 text-[#961F5F]">
                   {faq.question}

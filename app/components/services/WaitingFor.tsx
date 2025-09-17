@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { Dictionary } from "@/dictionaries";
-import VectoreImage from "/public/services/vector-right.png";
+import VectoreImage from "@/public/services/vector-right.png";
 import Image from "next/image";
 import { AnimationWrapper } from "../AnimationWrapper";
 

@@ -2,7 +2,7 @@ import { BreadCrumb } from "@/app/components/BreadCrumb";
 import { getDictionary } from "@/dictionaries";
 import { Locale } from "@/i18n-config";
 import Image from "next/image";
-import PainlessDeliveryImage from "/public/services/painlessDelivery.webp";
+import PainlessDeliveryImage from "@/public/services/painlessDelivery.webp";
 import { AnimationWrapper } from "@/app/components/AnimationWrapper";
 
 import { generatePageMetadata } from "@/app/lib/seo-utils";
@@ -24,6 +24,9 @@ export default async function PainlessDelivery({
   params: { lang: Locale };
 }) {
   const dict = await getDictionary(params.lang);
+
+  type Option = { name: string; description: string };
+  type Faq = { question: string; answer: string };
 
   return (
     <section className="content-wrapper text-primary">
@@ -68,7 +71,7 @@ export default async function PainlessDelivery({
             {dict.services.painless_delivery_details.title_four}
           </h3>
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 text-lg">
-            {dict.services.painless_delivery_details.benefits.map((benefit, index) => (
+            {dict.services.painless_delivery_details.benefits.map((benefit: string, index: number) => (
               <li key={index} className="flex items-start gap-2">
                 <span className="text-[#961F5F] font-semibold mt-1">•</span>
                 <span className="leading-relaxed">{benefit}</span>
@@ -90,7 +93,7 @@ export default async function PainlessDelivery({
           </p>
           <h4 className="text-lg font-semibold mb-3 text-[#961F5F]">Assessment Criteria:</h4>
           <ul className="list-disc list-inside space-y-2 text-lg mb-4">
-            {dict.services.painless_delivery_details.assessment_criteria.map((criterion, index) => (
+            {dict.services.painless_delivery_details.assessment_criteria.map((criterion: string, index: number) => (
               <li key={index} className="leading-relaxed">{criterion}</li>
             ))}
           </ul>
@@ -109,7 +112,7 @@ export default async function PainlessDelivery({
           </p>
           <h3 className="text-xl font-bold mb-4 text-[#961F5F]">Pain Management Options:</h3>
           <div className="space-y-4">
-            {dict.services.painless_delivery_details.pain_management_options.map((option, index) => (
+            {dict.services.painless_delivery_details.pain_management_options.map((option: Option, index: number) => (
               <div key={index} className="border-l-4 border-[#961F5F] pl-4">
                 <h4 className="text-lg font-semibold">{option.name}</h4>
                 <p className="text-lg leading-relaxed">{option.description}</p>
@@ -131,7 +134,7 @@ export default async function PainlessDelivery({
           </p>
           <h3 className="text-xl font-bold mb-4 text-[#961F5F]">Advantages:</h3>
           <ul className="space-y-3 text-lg">
-            {dict.services.painless_delivery_details.advantages.map((advantage, index) => (
+            {dict.services.painless_delivery_details.advantages.map((advantage: string, index: number) => (
               <li key={index} className="flex items-start gap-2">
                 <span className="text-[#961F5F] font-semibold mt-1">✓</span>
                 <span className="leading-relaxed">{advantage}</span>
@@ -153,7 +156,7 @@ export default async function PainlessDelivery({
           </p>
           <h3 className="text-xl font-bold mb-4 text-[#961F5F]">What Dr. Mona Saad Offers:</h3>
           <ul className="space-y-3 text-lg">
-            {dict.services.painless_delivery_details.offerings.map((offering, index) => (
+            {dict.services.painless_delivery_details.offerings.map((offering: string, index: number) => (
               <li key={index} className="leading-relaxed">{offering}</li>
             ))}
           </ul>
@@ -168,7 +171,7 @@ export default async function PainlessDelivery({
             {dict.services.painless_delivery_details.title_nine}
           </h3>
           <div className="space-y-6">
-            {dict.services.painless_delivery_details.faqs.map((faq, index) => (
+            {dict.services.painless_delivery_details.faqs.map((faq: Faq, index: number) => (
               <div key={index} className="border border-gray-200 rounded-lg p-6">
                 <h4 className="text-lg font-semibold mb-2 text-[#961F5F]">{faq.question}</h4>
                 <p className="text-lg leading-relaxed">{faq.answer}</p>

@@ -1,15 +1,15 @@
 import { Dictionary } from "@/dictionaries";
 import { FC } from "react";
 import { AnimationWrapper } from "../AnimationWrapper";
-import HighRiskPregnancyImage from "/public/services/highRiskPregnancy.webp";
-import PainlessDeliveryImage from "/public/services/painlessDelivery.webp";
-import CosmeticsImage from "/public/services/cosmetics.webp";
-import LaproscopicImage from "/public/services/laproscopic.webp";
-import OncologyImage from "/public/services/oncology.webp";
-import BotoxImage from "/public/services/botox.webp";
+import HighRiskPregnancyImage from "@/public/services/highRiskPregnancy.webp";
+import PainlessDeliveryImage from "@/public/services/painlessDelivery.webp";
+import CosmeticsImage from "@/public/services/cosmetics.webp";
+import LaproscopicImage from "@/public/services/laproscopic.webp";
+import OncologyImage from "@/public/services/oncology.webp";
+import BotoxImage from "@/public/services/botox.webp";
 import Image from "next/image";
 import Link from "next/link";
-import ArrowRightIcon from "/public/icons/pink-arrow-right.svg";
+import ArrowRightIcon from "@/public/icons/pink-arrow-right.svg";
 import { Locale } from "@/i18n-config";
 
 interface Props {

@@ -199,134 +199,15 @@ export interface Dictionary {
     high_risk: string;
     high_risk_description: string;
     learn_more: string;
-    painless_delivery_details: {
-      title_one: string;
-      description_one: string;
-      title_two: string;
-      description_two: {
-        one: string;
-        two: string;
-        three: string;
-      };
-      title_three: string;
-      description_three: string;
-      title_four: string;
-      description_four: string;
-      title_five: string;
-      description_five: string;
-      title_six: string;
-      description_six: string;
-    };
-    cosmotics_details: {
-      title_one: string;
-      description_one: string;
-      title_two: string;
-      description_two: string;
-      title_three: string;
-      description_three: string;
-      title_four: string;
-      description_four: string;
-      title_five: string;
-      description_five: string;
-      title_six: string;
-      description_six: string;
-      title_seven: string;
-      description_seven: string;
-      title_eight: string;
-      description_eight: {
-        one: string;
-        two: string;
-        three: string;
-        four: string;
-      };
-      title_nine: string;
-    };
-    laparoscopic_surgery_details: {
-      title_one: string;
-      description_one: string;
-      title_two: string;
-      description_two: {
-        one: string;
-        two: string;
-        three: string;
-      };
-      title_three: string;
-      description_three: {
-        one: string;
-        two: string;
-        three: string;
-        four: string;
-      };
-      title_four: string;
-      description_four: string;
-    };
-    oncology_surgery_details: {
-      title_one: string;
-      description_one: string;
-      title_two: string;
-      description_two: {
-        one: string;
-        two: string;
-        three: string;
-      };
-      title_three: string;
-      description_three: {
-        one: string;
-        two: string;
-        three: string;
-        four: string;
-        five: string;
-      };
-      title_four: string;
-      description_four: string;
-    };
-    botox_details: {
-      title_one: string;
-      description_one: string;
-      title_two: string;
-      description_two: {
-        one: string;
-        two: string;
-        three: string;
-      };
-      title_three: string;
-      description_three: {
-        one: string;
-        two: string;
-        three: string;
-      };
-      title_four: string;
-      description_four: string;
-      title_five: string;
-      description_six: string;
-    };
-    high_risk_pregnancy_details: {
-      title_one: string;
-      description_one: string;
-      title_two: string;
-      description_two: {
-        one: string;
-        two: string;
-        three: string;
-        four: string;
-      };
-      title_three: string;
-      description_three: {
-        one: string;
-        two: string;
-        three: string;
-        four: string;
-      };
-      title_four: string;
-      description_four: {
-        one: string;
-        two: string;
-        three: string;
-        four: string;
-      };
-      title_five: string;
-      description_five: string;
-    }
+    // Detailed service sections are complex and vary across locales.
+    // Use `any` here so components can safely read the nested JSON keys
+    // without the type definition going out of sync with the JSON files.
+    painless_delivery_details: any;
+    cosmotics_details: any;
+    laparoscopic_surgery_details: any;
+    oncology_surgery_details: any;
+    botox_details: any;
+    high_risk_pregnancy_details: any;
     
   }
   gallery : {

@@ -2,7 +2,7 @@ import { BreadCrumb } from "@/app/components/BreadCrumb";
 import { getDictionary } from "@/dictionaries";
 import { Locale } from "@/i18n-config";
 import Image from "next/image";
-import LaproscopicImage from "/public/services/laproscopic.webp";
+import LaproscopicImage from "@/public/services/laproscopic.webp";
 import { AnimationWrapper } from "@/app/components/AnimationWrapper";
 
 import { generatePageMetadata } from "@/app/lib/seo-utils";
@@ -24,6 +24,10 @@ export default async function LaparoscopicSurgery({
   params: { lang: Locale };
 }) {
   const dict = await getDictionary(params.lang);
+
+  type Item = { point: string; description: string };
+  type Benefit = { point: string; description: string };
+  type Faq = { question: string; answer: string };
 
   return (
     <section className="content-wrapper text-primary">
@@ -55,7 +59,7 @@ export default async function LaparoscopicSurgery({
             {dict.services.laparoscopic_surgery_details.title_two}
           </h3>
           <div className="space-y-4">
-            {dict.services.laparoscopic_surgery_details.description_two.map((item, index) => (
+            {dict.services.laparoscopic_surgery_details.description_two.map((item: Item, index: number) => (
               <div key={index} className="border-l-4 border-[#961F5F] pl-4">
                 <h3 className="text-lg font-semibold mb-2">{item.point}</h3>
                 <p className="text-lg leading-relaxed">{item.description}</p>
@@ -70,7 +74,7 @@ export default async function LaparoscopicSurgery({
             {dict.services.laparoscopic_surgery_details.title_three}
           </h3>
           <ul className="list-disc list-inside space-y-2 text-lg">
-            {dict.services.laparoscopic_surgery_details.conditions.map((condition, index) => (
+            {dict.services.laparoscopic_surgery_details.conditions.map((condition: string, index: number) => (
               <li key={index} className="leading-relaxed">{condition}</li>
             ))}
           </ul>
@@ -82,7 +86,7 @@ export default async function LaparoscopicSurgery({
             {dict.services.laparoscopic_surgery_details.title_four}
           </h3>
           <div className="space-y-4">
-            {dict.services.laparoscopic_surgery_details.benefits.map((benefit, index) => (
+            {dict.services.laparoscopic_surgery_details.benefits.map((benefit: Benefit, index: number) => (
               <div key={index} className="flex items-start gap-2">
                 <span className="text-[#961F5F] font-semibold mt-1">✓</span>
                 <div>
@@ -110,7 +114,7 @@ export default async function LaparoscopicSurgery({
             {dict.services.laparoscopic_surgery_details.title_six}
           </h3>
           <div className="space-y-6">
-            {dict.services.laparoscopic_surgery_details.faqs.map((faq, index) => (
+            {dict.services.laparoscopic_surgery_details.faqs.map((faq: Faq, index: number) => (
               <div key={index} className="border border-gray-200 rounded-lg p-6">
                 <h3 className="text-lg font-semibold mb-2 text-[#961F5F]">{faq.question}</h3>
                 <p className="text-lg leading-relaxed">{faq.answer}</p>

@@ -2,7 +2,7 @@ import { BreadCrumb } from "@/app/components/BreadCrumb";
 import { getDictionary } from "@/dictionaries";
 import { Locale } from "@/i18n-config";
 import Image from "next/image";
-import OncologyImage from "/public/services/oncology.webp";
+import OncologyImage from "@/public/services/oncology.webp";
 import { AnimationWrapper } from "@/app/components/AnimationWrapper";
 
 import { generatePageMetadata } from "@/app/lib/seo-utils";
@@ -24,6 +24,8 @@ export default async function OncologySurgery({
   params: { lang: Locale };
 }) {
   const dict = await getDictionary(params.lang);
+
+  type Faq = { question: string; answer: string };
 
   return (
     <section className="content-wrapper text-primary">
@@ -59,7 +61,7 @@ export default async function OncologySurgery({
           </p>
           <h3 className="text-xl font-semibold mb-3 text-[#961F5F]">Surgical Specialties:</h3>
           <ul className="list-disc list-inside space-y-2 text-lg">
-            {dict.services.oncology_surgery_details.surgical_specialties.map((specialty, index) => (
+            {dict.services.oncology_surgery_details.surgical_specialties.map((specialty: string, index: number) => (
               <li key={index} className="leading-relaxed">{specialty}</li>
             ))}
           </ul>
@@ -74,7 +76,7 @@ export default async function OncologySurgery({
             {dict.services.oncology_surgery_details.description_three}
           </p>
           <ul className="list-disc list-inside space-y-2 text-lg mb-4">
-            {dict.services.oncology_surgery_details.conditions.map((condition, index) => (
+            {dict.services.oncology_surgery_details.conditions.map((condition: string, index: number) => (
               <li key={index} className="leading-relaxed">{condition}</li>
             ))}
           </ul>
@@ -92,7 +94,7 @@ export default async function OncologySurgery({
             {dict.services.oncology_surgery_details.description_four}
           </p>
           <ul className="space-y-3 text-lg">
-            {dict.services.oncology_surgery_details.reasons.map((reason, index) => (
+            {dict.services.oncology_surgery_details.reasons.map((reason: string, index: number) => (
               <li key={index} className="flex items-start gap-2">
                 <span className="text-[#961F5F] font-semibold mt-1">✓</span>
                 <span className="leading-relaxed">{reason}</span>
@@ -127,7 +129,7 @@ export default async function OncologySurgery({
             {dict.services.oncology_surgery_details.title_seven}
           </h3>
           <div className="space-y-6">
-            {dict.services.oncology_surgery_details.faqs.map((faq, index) => (
+            {dict.services.oncology_surgery_details.faqs.map((faq: Faq, index: number) => (
               <div key={index} className="border border-gray-200 rounded-lg p-6">
                 <h3 className="text-lg font-semibold mb-2 text-[#961F5F]">{faq.question}</h3>
                 <p className="text-lg leading-relaxed">{faq.answer}</p>

@@ -2,7 +2,7 @@ import { BreadCrumb } from "@/app/components/BreadCrumb";
 import { getDictionary } from "@/dictionaries";
 import { Locale } from "@/i18n-config";
 import Image from "next/image";
-import CosmeticsImage from "/public/services/cosmetics.webp";
+import CosmeticsImage from "@/public/services/cosmetics.webp";
 import { AnimationWrapper } from "@/app/components/AnimationWrapper";
 
 import { generatePageMetadata } from "@/app/lib/seo-utils";
@@ -24,6 +24,9 @@ export default async function Cosmotices({
   params: { lang: Locale };
 }) {
   const dict = await getDictionary(params.lang);
+
+  type Procedure = { name: string; description: string };
+  type Faq = { question: string; answer: string };
 
   return (
     <section className="content-wrapper text-primary">
@@ -65,7 +68,7 @@ export default async function Cosmotices({
             {dict.services.cosmotics_details.title_three}
           </h3>
           <div className="space-y-6">
-            {dict.services.cosmotics_details.procedures.map((procedure, index) => (
+            {dict.services.cosmotics_details.procedures.map((procedure: Procedure, index: number) => (
               <div key={index} className="border-l-4 border-[#961F5F] pl-4">
                 <h3 className="text-xl font-semibold mb-2 text-[#961F5F]">{procedure.name}</h3>
                 <p className="text-lg leading-relaxed">{procedure.description}</p>
@@ -84,7 +87,7 @@ export default async function Cosmotices({
           </p>
           <h3 className="text-xl font-semibold mb-3 text-[#961F5F]">Common Reasons for Treatment:</h3>
           <ul className="list-disc list-inside space-y-2 text-lg mb-4">
-            {dict.services.cosmotics_details.candidacy_reasons.map((reason, index) => (
+            {dict.services.cosmotics_details.candidacy_reasons.map((reason: string, index: number) => (
               <li key={index} className="leading-relaxed">{reason}</li>
             ))}
           </ul>
@@ -103,7 +106,7 @@ export default async function Cosmotices({
           </p>
           <h3 className="text-xl font-semibold mb-3 text-[#961F5F]">What You Can Expect:</h3>
           <ul className="space-y-3 text-lg">
-            {dict.services.cosmotics_details.offerings.map((offering, index) => (
+            {dict.services.cosmotics_details.offerings.map((offering: string, index: number) => (
               <li key={index} className="flex items-start gap-2">
                 <span className="text-[#961F5F] font-semibold mt-1">✓</span>
                 <span className="leading-relaxed">{offering}</span>
@@ -118,7 +121,7 @@ export default async function Cosmotices({
             {dict.services.cosmotics_details.title_six}
           </h3>
           <div className="space-y-6">
-            {dict.services.cosmotics_details.faqs.map((faq, index) => (
+            {dict.services.cosmotics_details.faqs.map((faq: Faq, index: number) => (
               <div key={index} className="border border-gray-200 rounded-lg p-6">
                 <h4 className="text-lg font-semibold mb-2 text-[#961F5F]">{faq.question}</h4>
                 <p className="text-lg leading-relaxed">{faq.answer}</p>
